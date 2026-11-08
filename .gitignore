@@ -1,0 +1,61 @@
+# ============================================================
+# PhoneReg / Python project .gitignore
+# ============================================================
+
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- IDE / editor files ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# --- Project output / logs ---
+registration_log.jsonl
+*.log
+
+# --- Debug dumps (HTML pages saved by --debug) ---
+debug_*.html
+
+# --- Screenshots (wheel results) ---
+wheel_welcome.png
+wheel_reward.png
+*.png
+
+# --- Playwright browser binaries (if installed locally) ---
+playwright-report/
+test-results/
+
+# --- Jupyter / notebooks (if added later) ---
+.ipynb_checkpoints/
