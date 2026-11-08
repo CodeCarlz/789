@@ -1,0 +1,31 @@
+{
+  "site": "789Bingo",
+  "register_url": "https://789bingo.com/register",
+  "mobile_field": "phoneNumber",
+  "mobile_length": 11,
+  "otp_field": "sms-code",
+  "resend_selector": ".css-hdbbym",
+  "send_marker": "Verification code sent successfully",
+  "otp_url": "",
+  "otp_length": 0,
+  "static_fields": {},
+  "wheel": {
+    "enabled": true,
+    "go_selector": ".css-3z4mse",
+    "skip_selector": ".css-bwzg6b",
+    "title_selector": ".css-c6ko63",
+    "title_contains": "Login To Win Big Rewards",
+    "replay_url": "",
+    "wait_ms": 4500,
+    "screenshot": "wheel_welcome.png",
+    "screenshot2": "wheel_reward.png"
+  },
+  "success": {
+    "status": [200, 302],
+    "body_contains": [],
+    "body_not_contains": [],
+    "redirect_contains": []
+  },
+  "headers": {},
+  "timeout": 20
+}

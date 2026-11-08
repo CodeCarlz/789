@@ -1,0 +1,4 @@
+requests>=2.31
+beautifulsoup4>=4.12
+# optional, only for --browser (actually clicking wheel/resend controls):
+playwright>=1.42
